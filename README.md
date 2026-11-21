@@ -6,6 +6,8 @@ Placa-base com Raspberry Pi Compute Module 5 (CM5) e Raspberry Pi Pico (RP2040) 
 
 A placa tem contorno retangular de **120 × 90 mm**, montagem nas duas faces e quatro camadas de cobre.
 
+![Vista 3D da placa CM5–RP2040–MZM montada](docs/imagens/placa_compacta/Placa_CM5_Montada.png)
+
 ## Documentação técnica
 
 | Documento | PDF | Editável |
