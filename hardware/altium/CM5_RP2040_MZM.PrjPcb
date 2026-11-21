@@ -339,7 +339,7 @@ GenerateClassCluster=0
 DocumentUniqueId=HPVBWIMA
 
 [Document18]
-DocumentPath=CM5_RP2040_MZM_Retangular.PcbDoc
+DocumentPath=CM5_RP2040_MZM.PcbDoc
 AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -390,7 +390,7 @@ GenerateClassCluster=0
 DocumentUniqueId=WGTTSTQX
 
 [Document21]
-DocumentPath=CM5_RP2040_MZM_Retangular.BomDoc
+DocumentPath=CM5_RP2040_MZM.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
