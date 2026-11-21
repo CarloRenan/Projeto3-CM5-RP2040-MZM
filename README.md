@@ -1,34 +1,35 @@
 # Controlador de polarização MZM com CM5 e RP2040
 
-**Projeto 3**
+**Projeto 3 · Versão V1.1 · UFCG — Departamento de Engenharia Elétrica**
 
-Placa-base com Raspberry Pi Compute Module 5 e Raspberry Pi Pico para aquisição do sinal de um fotodiodo, geração de três tensões de polarização e supervisão de um modulador Mach–Zehnder (MZM).
+Placa-base com Raspberry Pi Compute Module 5 (CM5) e Raspberry Pi Pico (RP2040) para aquisição do sinal de um fotodiodo, supervisão e geração de três tensões de polarização (**I, Q e PHI**) destinadas a um modulador Mach–Zehnder (MZM).
 
-![Montagem tridimensional da placa CM5 e RP2040](docs/imagens/montagem_3d.png)
+A placa tem contorno retangular de **120 × 90 mm**, montagem nas duas faces e quatro camadas de cobre.
 
-## Documentação
+## Documentação técnica
 
-| Documento | Referência para |
-| --- | --- |
-| [Relatório principal](docs/relatorios/Relatorio_CM5_RP2040_MZM.docx) | Arquitetura, circuitos, cálculos e configurações do sistema |
-| [Conexões em 3D](docs/relatorios/Relatorio_Conexoes_3D%20.docx) | Pinagem, acessórios e exemplos de ligação |
-| [Ensaios de bancada](docs/relatorios/Ensaios_de_Bancada_CM5_Photonic_Bias.docx) | Procedimentos de teste e verificações do protótipo |
-| [Relatório LTspice](docs/relatorios/Relatorio_LTspice_CM5_RP2040_MZM.docx) | Simulações, gráficos e análise dos resultados |
-| [Lista de compras](docs/relatorios/Lista_Compras_Prototipo_CM5_RP2040%20.xlsx) | Componentes e acessórios |
-| [Vídeo da montagem e da bancada](media/CM5_R6_Trailer_Bancada.mp4) | Visualização do conjunto com MZM |
+| Documento | PDF | Editável |
+| --- | --- | --- |
+| Relatório principal | [Ler](docs/relatorios/PDF/Relatorio_CM5_RP2040_MZM.pdf) | [DOCX](docs/relatorios/Word/Relatorio_CM5_RP2040_MZM.docx) |
+| Conexões e imagens 3D | [Ler](docs/relatorios/PDF/Relatorio_Conexoes_3D.pdf) | [DOCX](docs/relatorios/Word/Relatorio_Conexoes_3D.docx) |
+| Pinagem e interfaces | [Ler](docs/relatorios/PDF/Relatorio_Pinagem_CM5_RP2040_MZM.pdf) | [DOCX](docs/relatorios/Word/Relatorio_Pinagem_CM5_RP2040_MZM.docx) |
+| Ensaios de bancada | [Ler](docs/relatorios/PDF/Ensaios_de_Bancada_CM5_Photonic_Bias.pdf) | [DOCX](docs/relatorios/Word/Ensaios_de_Bancada_CM5_Photonic_Bias.docx) |
+| Simulações LTspice | [Ler](docs/relatorios/PDF/Relatorio_LTspice_CM5_RP2040_MZM.pdf) | [DOCX](docs/relatorios/Word/Relatorio_LTspice_CM5_RP2040_MZM.docx) |
+| Apresentação | [Ler](docs/relatorios/Apresentacao_Projeto3_CM5_RP2040_MZM.pdf) | [PPTX](docs/relatorios/Apresentacao_Projeto3_CM5_RP2040_MZM.pptx) |
 
-## Arquivos do projeto
+[Desenho técnico da placa (PDF)](docs/relatorios/PDF/DWF.pdf)
 
-- [Hardware](hardware/altium): projeto Altium, esquemáticos, PCB, biblioteca, BOM e modelos 3D.
-- [Simulações](simulacoes): circuitos LTspice, modelos e roteiro dos ensaios.
-- [Imagens](docs/imagens): vistas da placa, da montagem e da bancada.
+## Arquivos da placa
 
-O histórico das revisões está em [CHANGELOG.md](CHANGELOG.md). As fontes e condições dos recursos de terceiros estão em [THIRD_PARTY.md](THIRD_PARTY.md).
+- **Projeto Altium:** [`hardware/altium/CM5_RP2040_MZM.PrjPcb`](hardware/altium/CM5_RP2040_MZM.PrjPcb)
+- **Layout da PCB:** [`hardware/altium/CM5_RP2040_MZM.PcbDoc`](hardware/altium/CM5_RP2040_MZM.PcbDoc)
+- **Biblioteca:** [`hardware/altium/CM5_Projeto_R6.PcbLib`](hardware/altium/CM5_Projeto_R6.PcbLib)
+- **Esquemáticos e BOM:** [hardware/altium](hardware/altium)
+- **Modelos STEP incorporados ao Altium:** [hardware/altium/ALTIUM_EMBEDDED_MODELS](hardware/altium/ALTIUM_EMBEDDED_MODELS)
+- **Simulações LTspice:** [simulacoes](simulacoes)
 
 ## Autores
 
-- Carlos Renan Correia Fidelis
-- Carlos Elias Fialho de Lima
-- Pablo Daniel Nascimento Vieira
+Carlos Renan Correia Fidelis · Carlos Elias Fialho de Lima · Pablo Daniel Nascimento Vieira
 
 Universidade Federal de Campina Grande · Engenharia Elétrica · 2026.
